@@ -177,9 +177,14 @@ function Navbar() {
               
               </Menuitem>
             <Menuitem>
+            <Link href={"/cart"} underline="none"color={"black"}>
               <Badge badgeContent={2} color="primary">
-                <ShoppingCartOutlinedIcon />
+              
+              <ShoppingCartOutlinedIcon />
+             
+               
               </Badge>
+              </Link>
             </Menuitem>
           </Right>
         </Wrapper>
